@@ -9,14 +9,15 @@
 </head>
 <body>
     <div id="app" class="center">
-        <h1 class="center">Treasure Hunt</u></h1>
+        <h1 class="center">Treasure Hunt</h1>
         <div class="center"> 
            <textarea v-model='textareaVal' id="treasureMap_coordinates" rows="10" cols="20"></textarea><br>
-            <span  class="center-text">Please add the comma separated 25 clue-values.<br> Example: 34,21,32,41,25,14,42,43,14,31</span>
+            <p>Please add the comma separated 25 clue-values.<br> Example: 34,21,32,41,25,14,42,43,14,31</p>
+            <span style=""><button  id=submit v-on:click=postTreasureMap() >Submit</button></span>
         </div>
 
 
-       <span style="margin-left:160px;background-color:blue"><button  id=submit v-on:click=postTreasureMap() >Submit</button></span>
+       
         <br/><br/>
 
 
