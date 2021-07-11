@@ -1,0 +1,31 @@
+.center {
+  margin: auto;
+  width: 50%;
+  border: 0px solid green;
+  padding: 50px;
+}
+.center-text {
+  margin: auto;
+  width: 50%;
+  border: 0px solid green;
+  padding: 5px;
+}
+.visitedResult{
+color:blue
+}
+.finalresult{
+color:green
+}
+.errorResult{
+color:red
+}
+
+h1 {
+  text-decoration: underline;
+}
+body {
+  background-color: #ebd934;
+}
+button {
+background-color: #b4eb34;
+}

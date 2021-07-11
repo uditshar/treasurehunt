@@ -1,0 +1,10 @@
+{
+  "status": "400",
+  "errorMessages": [
+    {
+      "fieldname": "Treasure map matrix",
+      "rejectedValue": "",
+      "message": "A loop was detected in the treasure map"
+    }
+  ]
+}

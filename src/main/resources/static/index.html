@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure hunt ui</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app" class="center">
+        <h1 class="center">Treasure Hunt</u></h1>
+        <div class="center"> 
+           <textarea v-model='textareaVal' id="treasureMap_coordinates" rows="10" cols="20"></textarea><br>
+            <span  class="center-text">Please add the comma separated 25 clue-values.<br> Example: 34,21,32,41,25,14,42,43,14,31</span>
+        </div>
+
+
+       <span style="margin-left:160px;background-color:blue"><button  id=submit v-on:click=postTreasureMap() >Submit</button></span>
+        <br/><br/>
+
+
+        
+        <div class="visitedResult">{{responseValue}}</div>
+        <div class='finalresult'>{{treasureFound}} </div>
+        <div class='errorResult'>{{errorMsgs}} </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@3.0.5"></script>
+    <script src="app.js"></script>
+</body>
+</html>
