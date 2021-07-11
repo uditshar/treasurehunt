@@ -16,7 +16,7 @@ From the project folder run
 Go to http://localhost:8080 to see the UI. The UI uses VueJS framework
  ***
 # API 
-The openid swagger UI can be found at (http://localhost:8080/swagger-ui)
+The openapi swagger UI can be found at (http://localhost:8080/swagger-ui)
 
 
  POST: /treasurehunt/map 
