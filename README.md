@@ -4,7 +4,7 @@ The application is REST api that uses springboot framework which runs at port 80
 
 The GUI is made of VueJs framework and is part of the project itself
 
-How to run the application
+# How to run the application
 
 From the project folder run 
 ./mvnw clean install
