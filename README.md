@@ -6,8 +6,10 @@ The GUI is made of VueJs framework and is part of the project itself
 
 # How to run the application
 
-From the project folder run 
-./mvnw clean install
+From the project folder run
+
+./mvnw clean install 
+
 ./mvnw spring-boot:run
 
 Go to http://localhost:8080 to see the UI. The UI uses VueJS framework
